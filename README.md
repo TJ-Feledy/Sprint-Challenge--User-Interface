@@ -34,20 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    - I would tell them, HTML is set up very similarly to a newspaper.  You use different <tags> to separate your information into headers, headings, sections, paragraphs, and much more.  I would also tell them to be very specific with their elements by adding class names and ID's.  Specificity is very important  for the use of SEO's.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    - Diff. 1. :  'display: block' displays elements in their own lines (takes entire line space), and 'display: inline' displays consecutively within the same line (takes only as much space as needed).
+    - Diff. 2. :  'inline' elements are unable to have their height and width configured.
 
 3. What are the 4 areas of the box model?
 
+    -  They are Content, Padding, Border, and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    -  The 'cross-axis'.
+
 5. Explain why git is valuable to a team of developers.
+
+    -  Git is valuable because of its abilities to share code interactively between many developers by using repositories.  The 'team' members can each branch off of one single application and edit it to their liking, without changing the original application, until the team reviews and accepts it.  They can also go back to older branches of the application if they decide to go in a  different direction later on.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- [ ] Add your project manager as collaborator on GitHub.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
